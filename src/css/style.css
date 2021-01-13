@@ -37,6 +37,7 @@ body {
   line-height: 157%;
   color: #FFFFFF;
   letter-spacing: 4px;
+  cursor: pointer;
 }
 
 .main__header-btn:hover {
@@ -63,15 +64,123 @@ body {
   left: 1%;
 }
 
+.main__content-circle-first .smooth {
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.main__content-circle-first .card_one {
+  position: relative;
+  top: -60%;
+  left: -100rem;
+  opacity: 0;
+  -webkit-transition: opacity 2s, left 2s;
+  transition: opacity 2s, left 2s;
+  padding: 10px;
+  width: 395px;
+  height: 257px;
+  background: rgba(196, 196, 196, 0.43);
+}
+
+.main__content-circle-first .card_one .dog_mini {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+
+.main__content-circle-first .card_one-text {
+  color: #fff;
+  font-size: 20px;
+}
+
+.main__content-circle-first .card_one-show {
+  left: -4%;
+  opacity: 1;
+  -webkit-transition: left 2s, opacity 2s;
+  transition: left 2s, opacity 2s;
+}
+
 .main__content-circle-sec {
   position: relative;
   top: 6%;
   left: 4%;
 }
 
+.main__content-circle-sec .wire {
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.main__content-circle-sec .card_two {
+  left: -100rem;
+  opacity: 0;
+  position: relative;
+  -webkit-transition: opacity 2s, left 2s;
+  transition: opacity 2s, left 2s;
+  top: -60%;
+  padding: 10px;
+  width: 395px;
+  height: 257px;
+  background: rgba(196, 196, 196, 0.43);
+}
+
+.main__content-circle-sec .card_two .dog_mini {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+
+.main__content-circle-sec .card_two-text {
+  color: #fff;
+  font-size: 20px;
+}
+
+.main__content-circle-sec .card_two-show {
+  left: -4%;
+  opacity: 1;
+  -webkit-transition: left 2s, opacity 1s;
+  transition: left 2s, opacity 1s;
+}
+
 .main__content-circle-thrd {
   position: relative;
   top: 69%;
   left: -3%;
+}
+
+.main__content-circle-thrd .long {
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.main__content-circle-thrd .card_three {
+  position: relative;
+  -webkit-transition: opacity 2s, left 2s;
+  transition: opacity 2s, left 2s;
+  top: -60%;
+  left: -100rem;
+  opacity: 0;
+  padding: 10px;
+  width: 395px;
+  height: 257px;
+  background: rgba(196, 196, 196, 0.43);
+}
+
+.main__content-circle-thrd .card_three .dog_mini {
+  position: absolute;
+  top: 0;
+  right: 1%;
+}
+
+.main__content-circle-thrd .card_three-text {
+  color: #fff;
+  font-size: 20px;
+}
+
+.main__content-circle-thrd .card_three-show {
+  left: 19%;
+  opacity: 1;
+  -webkit-transition: left 2s, opacity 1s;
+  transition: left 2s, opacity 1s;
 }
 /*# sourceMappingURL=style.css.map */
